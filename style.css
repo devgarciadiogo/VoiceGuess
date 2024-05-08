@@ -24,6 +24,10 @@ h1{
     font-size: 5em;
 }
 
+h2{
+    font-size: 4em;
+}
+
 h3{
     font-size: 2em;
     margin-top: 20px;
@@ -42,3 +46,16 @@ h3{
     margin: 20px;
 }
 
+.btn-jogar{
+    font-family: var(--font-family);
+    padding: 8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn-jogar:active {
+    transform: scale(0.9);
+}
