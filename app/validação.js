@@ -1,11 +1,12 @@
 function verificaSeOChutePossuiUmValorVálido(chute){
     const numero = +chute
-
+    
     if (chuteForInvalido(numero)){
         elementoChute.innerHTML += '<div>Valor inválido</div>'
         return
+        
     }
-
+    
     if (numeroForMaiorOuMenorQueOValorPermitido(numero)) {
         elementoChute.innerHTML += `
         <div>Valor inválido: Fale um numero entre ${menorValor} e ${maiorValor}</div>
